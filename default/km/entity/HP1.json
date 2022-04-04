@@ -1,0 +1,67 @@
+{
+  "$id": "HP1",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "address": {
+      "city": "New York",
+      "countryCode": "US",
+      "line1": "61 9th Ave",
+      "postalCode": "10011",
+      "region": "NY"
+    },
+    "addressHidden": false,
+    "c_activeInAnswers": "YES",
+    "c_answersSpecialty": "Answers",
+    "c_primaryCTA": {
+      "label": "Schedule Appointment!",
+      "link": "https://www.yext.com",
+      "linkType": "URL"
+    },
+    "c_secondaryCTA": {
+      "label": "Call Now",
+      "link": "+17574071153",
+      "linkType": "PHONE"
+    },
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "firstName": "Sam",
+    "gender": "MALE",
+    "headshot": {
+      "height": 416,
+      "sourceUrl": "http://a.mktgcdn.com/p-sandbox/WZURvV9ZDZI2sPpQ1FAB37fluMtAIeu0ziJ467SO2js/416x416.jpg",
+      "thumbnails": [
+        {
+          "height": 416,
+          "url": "http://a.mktgcdn.com/p/WZURvV9ZDZI2sPpQ1FAB37fluMtAIeu0ziJ467SO2js/416x416.jpg",
+          "width": 416
+        },
+        {
+          "height": 150,
+          "url": "http://a.mktgcdn.com/p/WZURvV9ZDZI2sPpQ1FAB37fluMtAIeu0ziJ467SO2js/150x150.jpg",
+          "width": 150
+        },
+        {
+          "height": 94,
+          "url": "http://a.mktgcdn.com/p/WZURvV9ZDZI2sPpQ1FAB37fluMtAIeu0ziJ467SO2js/94x94.jpg",
+          "width": 94
+        }
+      ],
+      "url": "http://a.mktgcdn.com/p/WZURvV9ZDZI2sPpQ1FAB37fluMtAIeu0ziJ467SO2js/416x416.jpg",
+      "width": 416
+    },
+    "insuranceAccepted": [
+      "AETNA",
+      "CIGNA",
+      "BlueCross BlueShield"
+    ],
+    "languages": [
+      "Spanish"
+    ],
+    "lastName": "Jones",
+    "mainPhone": "+17574070511",
+    "name": "Sam Jones, MD",
+    "timezone": "America/New_York"
+  },
+  "entityType": "healthcareProfessional",
+  "labels": []
+}

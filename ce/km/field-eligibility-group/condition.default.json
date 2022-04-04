@@ -1,0 +1,18 @@
+{
+  "$id": "ce_condition.default",
+  "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+  "name": "Condition-default",
+  "entityType": "ce_condition",
+  "fields": [
+    "c_activeInAnswers",
+    "c_photo",
+    "c_primaryCTA",
+    "c_relatedLocations",
+    "c_relatedProfessionals",
+    "c_secondaryCTA",
+    "description",
+    "keywords",
+    "landingPageUrl"
+  ],
+  "required": []
+}

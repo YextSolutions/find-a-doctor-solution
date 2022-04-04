@@ -1,0 +1,30 @@
+{
+  "$id": "answersIndexingApi",
+  "$schema": "https://schema.yext.com/config/streams/streams-endpoint/v1",
+  "name": "Answers Indexing Endpoint",
+  "stream": {
+    "source": "knowledgeGraph",
+    "fields": [
+      "address",
+      "id",
+      "mainPhone",
+      "meta"
+    ],
+    "filter": {
+      "entityTypes": [
+        "healthcareProfessional"
+      ]
+    },
+    "localization": {
+      "locales": [
+        "en"
+      ],
+      "excludePrimary": true
+    }
+  },
+  "fieldIndexes": [
+    {
+      "field": "uid"
+    }
+  ]
+}

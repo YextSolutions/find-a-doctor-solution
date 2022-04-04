@@ -1,0 +1,161 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers",
+  "name": "Answers",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "providers": {
+      "directAnswers": {
+        "fieldValues": {
+          "eligibleFields": [
+            "mainPhone",
+            "address"
+          ],
+          "predictionMode": "CLASSIFIER"
+        }
+      },
+      "entityTypes": [
+        "healthcareProfessional"
+      ],
+      "name": "Providers",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "builtin.location": {
+          "nlpFilter": true
+        },
+        "builtin.medicalSpecialty": {
+          "nlpFilter": true
+        },
+        "builtinFile.medicalCondition_b": {
+          "nlpFilter": true
+        },
+        "c_relatedLocations.name": {
+          "phraseMatch": true,
+          "textSearch": true
+        },
+        "firstName": {
+          "phraseMatch": true,
+          "textSearch": true
+        },
+        "gender": {
+          "facet": true,
+          "nlpFilter": true
+        },
+        "insuranceAccepted": {
+          "facet": true,
+          "textSearch": true
+        },
+        "keywords": {
+          "textSearch": true
+        },
+        "languages": {
+          "facet": true,
+          "textSearch": true
+        },
+        "lastName": {
+          "phraseMatch": true,
+          "textSearch": true
+        },
+        "name": {
+          "phraseMatch": true,
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [
+      {
+        "phrase": "phone",
+        "synonyms": [
+          "main phone"
+        ]
+      },
+      {
+        "phrase": "call",
+        "synonyms": [
+          "main phone"
+        ]
+      },
+      {
+        "phrase": "who take",
+        "synonyms": [
+          "insurance accepted"
+        ]
+      },
+      {
+        "phrase": "obgyn",
+        "synonyms": [
+          "obstetrics",
+          "gynecology"
+        ]
+      },
+      {
+        "phrase": "physician",
+        "synonyms": [
+          "healthcare professional"
+        ]
+      },
+      {
+        "phrase": "physicians",
+        "synonyms": [
+          "healthcare professional"
+        ]
+      }
+    ],
+    "synonymSet": [
+      [
+        "covid",
+        "coronavirus",
+        "corona",
+        "virus",
+        "covid19",
+        "covid-19"
+      ],
+      [
+        "doctor",
+        "doctors",
+        "provider",
+        "providers",
+        "professional",
+        "professionals",
+        "healthcare professional",
+        "healthcare professionals"
+      ],
+      [
+        "location",
+        "locations",
+        "clinic",
+        "clinics",
+        "facility",
+        "facilities",
+        "healthcare facility",
+        "healthcare facilities"
+      ]
+    ]
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "verticalPromptsOnEmpty": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Doctors in New York",
+      "Doctors who speak Spanish and take CIGNA"
+    ],
+    "verticalPrompts": {
+      "providers": [
+        "Providers near [[address.city]]",
+        "Providers near [[address.region]]",
+        "Providers near me",
+        "[[name]]"
+      ]
+    }
+  }
+}

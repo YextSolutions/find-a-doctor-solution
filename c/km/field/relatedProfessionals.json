@@ -1,0 +1,21 @@
+{
+  "$id": "c_relatedProfessionals",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Related Professionals",
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "entityReference",
+      "type": {
+        "entityReferenceType": {
+          "supportedEntityTypeIds": [
+            "healthcareProfessional"
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}
