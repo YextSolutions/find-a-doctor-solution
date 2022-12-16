@@ -24,7 +24,7 @@
   },
   "fieldIndexes": [
     {
-      "field": "uid"
+      "field": "id"
     }
   ]
 }
