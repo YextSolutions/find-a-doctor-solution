@@ -3,10 +3,6 @@
   "primaryEntityType": "location",
   "entityTypeSettings": [
     {
-      "entityType": "hotel",
-      "disabled": true
-    },
-    {
       "entityType": "location",
       "disabled": false
     },
@@ -31,26 +27,6 @@
       "disabled": false
     },
     {
-      "entityType": "event",
-      "disabled": true
-    },
-    {
-      "entityType": "hotelRoomType",
-      "disabled": true
-    },
-    {
-      "entityType": "atm",
-      "disabled": true
-    },
-    {
-      "entityType": "restaurant",
-      "disabled": true
-    },
-    {
-      "entityType": "organization",
-      "disabled": true
-    },
-    {
       "entityType": "ce_specialty",
       "defaultFieldEligibilityGroup": "ce_specialty.default",
       "disabled": false
@@ -59,18 +35,6 @@
       "entityType": "ce_condition",
       "defaultFieldEligibilityGroup": "ce_condition.default",
       "disabled": false
-    },
-    {
-      "entityType": "helpArticle",
-      "disabled": true
-    },
-    {
-      "entityType": "product",
-      "disabled": true
-    },
-    {
-      "entityType": "financialProfessional",
-      "disabled": true
     }
   ]
 }
